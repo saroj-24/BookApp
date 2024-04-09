@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateNewAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/createaccountbg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textColor="#39A7FF"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Enter your name"
+        android:paddingStart="15dp"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:paddingLeft="15dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/register_name_editextview"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginboard"
+        android:drawableLeft="@drawable/baseline_account_circle_24" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your email"
+        android:drawableStart="@drawable/outline_email_24"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/regiter_emailedit_textview"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginboard"
+        android:drawableLeft="@drawable/outline_email_24" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter your password"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/password"
+        android:id="@+id/register_passwordedit_textview"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginboard"
+        android:drawableLeft="@drawable/password" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm your password"
+        android:paddingStart="15dp"
+        android:inputType="textPassword"
+        android:paddingEnd="15dp"
+        android:drawableStart="@drawable/password"
+        android:layout_marginStart="20dp"
+        android:drawablePadding="10dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/register_repeat_pw_editextview"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/loginboard"
+        android:drawableLeft="@drawable/password" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show password"
+        android:textColor="#39A7FF"
+        android:id="@+id/checkbox"
+        android:textColorHint="#3559E0"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerbutton"
+        android:text="Register"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/registerbg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20sp"
+        android:id="@+id/singintextview"
+        android:layout_marginTop="20dp"
+        android:textColor="#39A7FF"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Do you have account? singin"
+        android:layout_marginLeft="90dp" />
+
+
+
+</LinearLayout>
